@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-red-700 to-red-900 rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-gold-400 to-gold-600 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">V</span>
               </div>
               <div>
@@ -39,8 +39,8 @@ export default function Footer() {
               ISO 9001:2015 certified manufacturer of premium flour milling machinery,
               serving diverse industries with quality and reliability.
             </p>
-            <div className="flex items-center space-x-2 bg-red-900/20 px-3 py-2 rounded">
-              <Award className="w-4 h-4 text-red-400" />
+            <div className="flex items-center space-x-2 bg-gold-400/20 px-3 py-2 rounded">
+              <Award className="w-4 h-4 text-gold-400" />
               <span className="text-xs text-gray-300">ISO 9001:2015 Certified</span>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Contact Info</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-red-400 flex-shrink-0 mt-1" />
+                <MapPin className="w-5 h-5 text-gold-400 flex-shrink-0 mt-1" />
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Ramnagar-1, National Highway 8-b,<br />
                   B/h. Khodiyar Garage,<br />
@@ -85,7 +85,7 @@ export default function Footer() {
                 </p>
               </div>
               <div className="flex items-start space-x-3">
-                <Mail className="w-5 h-5 text-red-400 flex-shrink-0 mt-1" />
+                <Mail className="w-5 h-5 text-gold-400 flex-shrink-0 mt-1" />
                 <a
                   href="mailto:vitaraflourmill@gmail.com"
                   className="text-gray-400 hover:text-white text-sm transition-colors"

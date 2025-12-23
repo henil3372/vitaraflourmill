@@ -48,7 +48,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-900 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent"
                   placeholder="Your name"
                 />
               </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-900 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-900 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent"
                   placeholder="+91 XXXXX XXXXX"
                 />
               </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-900 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent"
                 >
                   <option value="">Select a subject</option>
                   <option value="product-inquiry">Product Inquiry</option>
@@ -114,13 +114,13 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-900 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent"
                   placeholder="Tell us about your requirements..."
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-red-900 to-red-700 text-white px-8 py-4 rounded-lg font-semibold hover:from-red-800 hover:to-red-600 transition-all shadow-lg"
+                className="w-full bg-gradient-to-r from-gold-500 to-gold-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-gold-600 hover:to-gold-700 transition-all shadow-lg"
               >
                 Send Message
               </button>
@@ -131,7 +131,7 @@ export default function Contact() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
             <div className="space-y-6 mb-8">
               <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-red-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gold-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -147,19 +147,19 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-red-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gold-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-2">Email Us</h4>
-                  <a href="mailto:vitaraflourmill@gmail.com" className="text-red-900 hover:underline">
+                  <a href="mailto:vitaraflourmill@gmail.com" className="text-gold-700 hover:underline">
                     vitaraflourmill@gmail.com
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-red-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gold-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -169,7 +169,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-red-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gold-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Clock className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -182,7 +182,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-red-900 to-red-700 rounded-lg p-6 text-white">
+            <div className="bg-gradient-to-br from-charcoal-800 to-charcoal-700 rounded-lg p-6 text-white">
               <h4 className="text-xl font-bold mb-3">Why Choose Us?</h4>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center">
